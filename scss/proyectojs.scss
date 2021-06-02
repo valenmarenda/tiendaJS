@@ -1,0 +1,46 @@
+@import "indexstyles";
+@import "tienda";
+$color-celeste: #3AB3C4;
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+    letter-spacing: 0.2rem;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+}
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+nav a {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1rem;
+    color:  #0d181a;
+}
+@media (min-width: 768px) {
+    nav a {
+
+        font-size: 2.4rem;
+
+    }
+
+}
+
